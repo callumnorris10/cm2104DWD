@@ -3,7 +3,8 @@ $(function(){
   alert("document ready");
 
     $('#searchform').submit(function(){
-      addItemToList("example item");
+      var searchterms = $("#searchterms").val();
+      addItemToList(searchterms);
       return false;
 
     });
