@@ -1,6 +1,6 @@
 $(function(){
 	// 'main' function called when page is loaded and ready
-$('#content'),append(items_html);
+$('#content').append(items_html);
 	// complete the following using jQuery
 
 	// 1. find the addcontent button in task-two.html
