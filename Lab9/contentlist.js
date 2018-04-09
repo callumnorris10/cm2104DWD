@@ -7,7 +7,11 @@ $(function(){
 	// 2. add an event listener for 'click' events
 	// 3. assign the addContent() function to the click event
 });
-
+$(function(){
+    $('#addcontent').click(addContent() {
+        
+    });
+});
 function addContent () {
 	// add a list of items to the content div
 	var items = ["hewey", "dewey", "louie"];
