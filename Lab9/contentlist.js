@@ -13,7 +13,7 @@ $(function(){
 function addContent () {
 	// add a list of items to the content div
 	var items = ["hewey", "dewey", "louie"];
-	var
+
 	// build the html string for a <ul> list
 	var items_html = "<ul>";
 	for (var i=0; i < items.length; i++) {
