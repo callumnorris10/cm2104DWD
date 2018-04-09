@@ -19,7 +19,7 @@ function addContent () {
 		items_html += "<li>" + item + "</li>";
 	};
 	items_html += "</ul>";
-	$('#content').html(items_html);
+	$('#addcontent').html(items_html);
 
 	// using jQuery
 	// 1. find the content div
