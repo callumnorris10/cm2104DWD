@@ -8,7 +8,7 @@ $(function(){
 	// 3. assign the addContent() function to the click event
 });
 $(function(){
-    $('#addcontent').click(addContent());
+    $('#content').click(addContent());
 });
 function addContent () {
 	// add a list of items to the content div
