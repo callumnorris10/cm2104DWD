@@ -1,6 +1,6 @@
 $(function(){
 	// 'main' function called when page is loaded and ready
-$('#content').append(items_html);
+
 	// complete the following using jQuery
 
 	// 1. find the addcontent button in task-two.html
@@ -11,7 +11,7 @@ $('#content').append(items_html);
 function addContent () {
 	// add a list of items to the content div
 	var items = ["hewey", "dewey", "louie"];
-
+	var
 	// build the html string for a <ul> list
 	var items_html = "<ul>";
 	for (var i=0; i < items.length; i++) {
@@ -19,6 +19,7 @@ function addContent () {
 		items_html += "<li>" + item + "</li>";
 	};
 	items_html += "</ul>";
+	$('#content').html(items_html);
 
 	// using jQuery
 	// 1. find the content div
