@@ -9,7 +9,7 @@ $(function(){
 });
 $(function(){
     $('#addcontent').click(addContent() {
-        
+
     });
 });
 function addContent () {
@@ -23,7 +23,7 @@ function addContent () {
 		items_html += "<li>" + item + "</li>";
 	};
 	items_html += "</ul>";
-	$('#task2').html(items_html);
+	$('#content').append(items_html);
 
 	// using jQuery
 	// 1. find the content div
